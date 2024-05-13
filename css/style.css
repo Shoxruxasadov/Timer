@@ -1,0 +1,57 @@
+@font-face {
+  font-family: clockicons;
+  src: url(../fonts/clockicons.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #1d1d1d;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 150px;
+  font-family: clockicons, sans-serif;
+  color: #ff9500;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 8px;
+}
+.btns button {
+  width: 50%;
+  height: 30px;
+  font-family: "Sono";
+  border: 1px solid #ffc021;
+  border-radius: 5px;
+  color: #ffc021;
+  background: transparent;
+  transition: 0.1s;
+}
+.btns button:hover {
+  background: #ffc021;
+  color: black;
+}
+.btns button:focus {
+  outline: none;
+  background: transparent;
+  color: #ffc021;
+  border: none;
+  font-size: 20px;
+}
+.btns button:active {
+  transform: scale(0.85);
+}/*# sourceMappingURL=style.css.map */
